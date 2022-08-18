@@ -5,7 +5,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        {/* <p>Sistema Solar</p> */}
+        <p>Sistema Solar</p>
         <Header />
       </>
     );
