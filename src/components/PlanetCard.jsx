@@ -14,11 +14,11 @@ export default class PlanetCard extends Component {
 }
 
 PlanetCard.propTypes = {
-  planetName: PropTypes.string,
-  planetImage: PropTypes.string,
+  planetName: PropTypes.string.isRequired,
+  planetImage: PropTypes.string.isRequired,
 };
 
-PlanetCard.defaultProps = {
-  planetName: 'RichardWorld',
-  planetImage: 'public/planets/Marte.png',
-};
+// PlanetCard.defaultProps = {
+//   planetName: 'RichardWorld',
+//   planetImage: 'public/planets/Marte.png',
+// };
