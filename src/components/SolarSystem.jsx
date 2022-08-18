@@ -7,7 +7,6 @@ export default class SolarSystem extends Component {
       <div data-testid="solar-system">
         <Title headline="Planetas" />
       </div>
-
     );
   }
 }
